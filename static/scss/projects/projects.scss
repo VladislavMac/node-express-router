@@ -1,0 +1,53 @@
+$waterGreen: #008888;
+$waterGlass: #00414b75;
+
+.content-projects{
+    background-image: url('../../images/background-projects.jpg');
+    background-size: cover;
+    background-position: center;
+
+    overflow: auto;
+    
+    color: #fff;
+    &-items{
+
+        width: 100%;
+        min-height: 100vh;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        &_item{
+            background-color: #00313998;
+
+            padding: 3vw;
+            margin: 3vw;
+
+            min-width: 50vw;
+            &-title{
+                h1{
+                    font-size: 3vw;
+                }
+                &_line{
+                    margin-top: 0.5vw;
+                    margin-bottom: 0.5vw;
+
+                    width: 15vw;
+                    height: 0.5vh;
+                
+                    transition: 300ms;
+                
+                    border-radius: 4vw;
+                
+                    background-color: $waterGreen;
+                }
+            }
+            &-desc{
+                p{
+                    font-size: 1vw;
+                }
+            }
+        }
+    }
+}

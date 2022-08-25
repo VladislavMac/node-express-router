@@ -1,0 +1,25 @@
+$waterGreen: #008888;
+$waterGlass: #00414b75;
+
+.header{
+    width: 100%;
+    height: 100vh;
+
+    background-image: url('../../images/background-header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &-title{
+        width: 100%;
+        height: 90vh;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &_title{
+            background: $waterGlass;
+            font-size: 10vw;
+            color: white;
+        }
+    }
+}

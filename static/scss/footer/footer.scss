@@ -1,0 +1,45 @@
+$waterGreen: #008888;
+$waterGlass: #00414b75;
+
+.footer{
+    width: 100%;
+    min-height: 10vh;
+
+    background-color: $waterGreen;
+    &-links{
+        width: 100%;
+        min-height: 15vh;
+
+        background-color: $waterGlass;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        flex-wrap: wrap;
+        &_link{
+            color: #fff;
+            margin: 4vw;
+
+            width: 10vw;
+            height: 5vw;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            &-title{
+                margin: 1vw;
+                font-size: 1.3vw;
+            }
+            &-icon{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                overflow: hidden;
+                min-height: 5vw;
+            }
+        }
+    }
+}

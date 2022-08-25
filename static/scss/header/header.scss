@@ -1,0 +1,43 @@
+$waterGreen: #008888;
+$waterGlass: #00414b75;
+
+.header-nav{
+    width: 100%;
+    height: 13vh;
+
+    background: $waterGreen;
+    backdrop-filter: blur(10px);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    &-item{
+        color: #FFF;  
+        font-size: 2vw;
+
+        width: 20vw;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        &_link{
+            cursor: pointer;
+        }
+        &_line{
+            margin-top: 0.5vw;
+
+            // width: 10vw;
+            width: 0vw;
+            height: 0.5vh;
+
+            transition: 300ms;
+
+            border-radius: 4vw;
+
+            background-color: #fff;
+        }
+    }
+}
